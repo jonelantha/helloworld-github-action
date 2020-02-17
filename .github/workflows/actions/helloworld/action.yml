@@ -1,0 +1,8 @@
+name: "Hello World"
+description: "Simple example action"
+inputs:
+  example-param:
+    description: "An example parameter"
+runs:
+  using: "node12"
+  main: "action.js"
