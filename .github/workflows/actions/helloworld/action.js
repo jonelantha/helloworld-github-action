@@ -1,5 +1,5 @@
-const core = require("@actions/core");
-const { exec } = require("@actions/exec");
+import * as core from "@actions/core";
+import { exec } from "@actions/exec";
 
 async function exampleAction() {
   const exampleParam = core.getInput("example-param");

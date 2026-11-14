@@ -4,5 +4,5 @@ inputs:
   example-param:
     description: "An example parameter"
 runs:
-  using: "node12"
+  using: "node24"
   main: "action.js"

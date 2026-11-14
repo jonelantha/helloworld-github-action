@@ -2,10 +2,10 @@
   "name": "helloworld-github-action",
   "version": "0.1.0",
   "private": false,
+  "type": "module",
   "dependencies": {
-    "@actions/core": "^1.4.0",
-    "@actions/exec": "^1.1.0"
+    "@actions/core": "^3.0.1",
+    "@actions/exec": "^3.0.0"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
