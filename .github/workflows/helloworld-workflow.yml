@@ -3,8 +3,11 @@ name: HelloWorld
 on:
   push:
 
+permissions:
+  contents: read
+
 jobs:
-  deploy:
+  hello-world:
     runs-on: ubuntu-latest
 
     steps:
@@ -13,6 +16,6 @@ jobs:
       - name: Install npm packages
         run: npm ci
       - name: Hello World
-        uses: ./.github/workflows/actions/helloworld
+        uses: ./.github/actions/helloworld
         with:
           example-param: Hello World
