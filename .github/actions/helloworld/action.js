@@ -8,5 +8,5 @@ try {
   core.info("And now let's run the system 'date' command:");
   await exec("date");
 } catch (error) {
-  core.setFailed(error instanceof Error ? error.message : String(error));
+  core.setFailed(error);
 }
